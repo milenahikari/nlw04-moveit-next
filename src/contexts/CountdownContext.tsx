@@ -36,6 +36,7 @@ export function CountdownProvider({ children }: CountdownContextProps) {
     //Limpa o setTimeout para não executar a função
     clearTimeout(countdownTimeout);
     setIsActive(false);
+    setHasFinished(false);
     setTime(0.1 * 60);
   }
 
