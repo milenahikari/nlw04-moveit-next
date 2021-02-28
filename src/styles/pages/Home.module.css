@@ -21,5 +21,6 @@
   .container section {
     grid-template-columns: 1fr;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
